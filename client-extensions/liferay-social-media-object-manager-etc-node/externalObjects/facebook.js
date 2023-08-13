@@ -3,8 +3,8 @@ import express from 'express';
 import {logger} from "../util/logger.js";
 import axios from 'axios';
 
-const pageId = '108617144950030';
-const accessToken = 'EAANG6x7Qt2IBO32ZAj6ZBGyR55oE6hU998ae4JEYrDhMZCJ0JlxkiJk8gp5YhZAs9IyoExslAsULxZA0wWzxZBfhZAc3IIJPKrXApLbgLPl0AxPMhzZACKguNKm4rFw8fQ1YudLwE9lrefO9VJi13YP3MjipxxDjM9tiZAKg6myS1VZAOoqDuQTKf70MEzGMjo2jUZD';
+const pageId = '<Your Page ID Goes Here>';
+const accessToken = '<Your Access Token Goes Here>';
 const router = express.Router();
 
 
