@@ -1,0 +1,17 @@
+assemble:
+    - include:
+          - "**/*.js"
+          - package.json
+liferay-social-media-manager-oauth-application-user-agent:
+    .serviceAddress: localhost:5001
+    .serviceScheme: http
+    name: Liferay Social Media Object Manager Node OAuth Application User Agent
+    scopes:
+        - Liferay.Headless.Admin.Workflow.everything
+        - Liferay.Headless.Delivery.everything
+    type: oAuthApplicationUserAgent
+liferay-social-media-object-manager-etc-node:
+    name: Facebook Connector - Object Manager
+    oAuth2ApplicationExternalReferenceCode: liferay-social-media-manager-oauth-application-user-agent
+    resourcePath: /dynamic/facebook
+    type: objectEntryManager
